@@ -3,7 +3,7 @@ import { ItemComparator } from './ItemComparator';
 
 // your code goes here
 export class Inventory implements ItemComparator {
-    private _items: Item[];
+    private _items: Array<Item> = [];
 
     public addItem(item: Item): void {
         this._items.push(item);

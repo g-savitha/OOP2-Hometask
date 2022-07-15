@@ -29,7 +29,7 @@ inventory.sort();
 console.log(inventory.toString());
 
 // Sort by weight
-inventory.sort(new ItemWeightComparator());
+// inventory.sort(new ItemWeightComparator());
 
 // Display the inventory again
 console.log(inventory.toString());

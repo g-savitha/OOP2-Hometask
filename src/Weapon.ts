@@ -5,9 +5,9 @@ export abstract class Weapon extends Item {
     // instance variable
     public static readonly MODIFIER_CHANGE_RATE: number = 0.05;
     private _baseDamage: number;
-    private _damageModifier: number;
+    private _damageModifier: number = 0;
     private _baseDurability: number;
-    private _durabilityModifier: number;
+    private _durabilityModifier: number = 0;
 
     constructor(
         name: string,
